@@ -1,0 +1,58 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Admin",
+      "email": "admin@livraria.com",
+      "senha_hash": "$2b$10$b7NoIuBrd40Czh5A5yOVlewGYfv6oeDdoO.l3wVIVEF4FLHDTgpTi",
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "nome": "Leitor",
+      "email": "leitor@gmail.com",
+      "senha_hash": "$2b$10$BxVVJnxUWnVFmbeef1dwJeIAi5lz7CzA/o1CxhEcPyVTRNYS4hIXy",
+      "role": "USER"
+    }
+  ],
+  "autores": [
+    {
+      "id": 1,
+      "nome": "Machado de Assis",
+      "nacionalidade": "Brasileiro"
+    }
+  ],
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "Dom Casmurro",
+      "ano": 1899,
+      "autor_id": 1,
+      "comentarios": [
+        {
+          "id": 1,
+          "autor_nome": "Leitor",
+          "texto": "Clássico indispensável."
+        },
+        {
+          "id": 1791245533144,
+          "autor_nome": "Leitor",
+          "texto": "Olá"
+        }
+      ]
+    },
+    {
+      "id": 1791245610401,
+      "titulo": "Amoeba",
+      "ano": "2023",
+      "autor_id": 1,
+      "comentarios": [
+        {
+          "id": 1791245651537,
+          "autor_nome": "Admin",
+          "texto": "Bem Amoeba"
+        }
+      ]
+    }
+  ]
+}
